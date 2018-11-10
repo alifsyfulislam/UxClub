@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../textfonts/lato-italic-webfont.woff2') format('woff2'),
+    url('../textfonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../textfonts/lato-black-webfont.woff2') format('woff2'),
+    url('../textfonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../textfonts/lato-bold-webfont.woff2') format('woff2'),
+    url('lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../textfonts/lato-light-webfont.woff2') format('woff2'),
+    url('../textfonts/lato-light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.btn-join{
+    background-color: #df203a;
+    color: white;
+    border-radius: 35px;
+    font-size: 14px;
+    font-family: latolight;
+}
+
+.bg-slider{
+    background-image: url("../images/slider pic/Overlay.png");
+    background-size: cover;
+    min-height: 565px;
+    /*padding-top: 160px;*/
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    font-size: 14px;
+}
+
+.slider-title{
+    padding-top: 160px;
+    text-align: center;
+}
+
+.slider-title h1{
+    font-family: latobold;
+    font-size: 55px;
+    color: white;
+}
+
+.slider-title h2{
+    font-family: latolight;
+    font-size: 40px;
+    color: white;
+}
+
+.slider-button{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn-slider{
+    width: 260px;
+    height: 60px;
+    background-color: #626294;
+    border-radius: 45px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-slider2{
+    width: 260px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 45px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    margin-left: 30px;
+}
+
+.slider-icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+.bg-note{
+    min-height: 120px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.note-img{
+    height: 60px;
+    width: 60px;
+}
+
+.note-text p{
+    margin: 0 0 0px 0;
+    padding: 0;
+    color: #7f1d57;
+    font-weight: bold;
+}
+
+.note-text small{
+    margin: 0;
+    color: #757f8a;
+}
+
+.note-text2 p{
+    margin: 0 0 0px 0;
+    padding: 0;
+    color: #ca1f41;
+    font-weight: bold;
+}
+
+.note-text3 p{
+    margin: 0 0 0px 0;
+    padding: 0;
+    color: #df203a;
+    font-weight: bold;
+}
+
+.bg-course{
+    min-height: 1036px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-title{
+    padding-top: 30px;
+}
+
+.section-title h2{
+    font-family: latolight;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+}
+
+.course-pack .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 30px;
+}
+
+.course-pack .card .card-body h4{
+    font-family: latoblack;
+    font-size: 20px;
+}
+
+.card-align{
+    height: 185px;
+}
+
+.course-pack .card:hover{
+    border: 1px solid #df203a;
+    color: #df203a;
+}
+
+.bg-members{
+    min-height: 320px;
+    padding: 30px 0px;
+    background-color: white;
+}
+
+.members-title{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.members-title h2{
+    font-size: 40px;
+    font-family: latolight;
+    margin-top: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-redish{
+    color: #df203a;
+}
+
+.btn-membership{
+    width: 260px;
+    height: 60px;
+    border-radius: 45px;
+    background-color: #df203a;
+    color: white;
+    text-align: center;
+    font-family: latolight;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
